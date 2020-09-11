@@ -16,5 +16,5 @@ Site Supervisor Email Address:  jartz@budk.com
 ```markdown
 Host Organization Name:  BUDK Worldwide Inc.
 Host Organization Address:  475 Highway 319 South, Moultrie, GA 31768
-Host Organization Website:  [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+Host Organization Website:  [BUDK Website](https://www.budk.com)
 ```
