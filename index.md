@@ -16,6 +16,5 @@ Site Supervisor Email Address:  jartz@budk.com
 ```markdown
 Host Organization Name:  BUDK Worldwide Inc.
 Host Organization Address:  475 Highway 319 South, Moultrie, GA 31768
-Host Organization Website:  http://github.com - automatic!
-[GitHub](http://github.com)
+Host Organization Website:  [BUDK WEBSITE](https://www.budk.com)
 ```
