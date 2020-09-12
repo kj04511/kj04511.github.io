@@ -180,27 +180,141 @@ Positive user feedback | 2% | 15 | 70 | 80 | 90
 Correctly calculated and aggregated data | 15% | 10 | 100 | 100 | 100
 **Weighted Project Scores** | **100%** | **9.45** | **44.55** | **73.4** | **89.8**
 
+![Image of Weighted Chart](https://kj04511.github.io/Weighted%20Score%20Chart.PNG)
 
+Based on the above criteria and weighted scoring chart, Alternative 4 is the best choice as an alternative for the project. Alternative 4 solves the problem of getting the data from Amazon Seller Central reports downloaded by users into the BUDK database and it also adds the Amazon information into the existing report, so the user no longer has to merge documents. Since an auto generated report is used as one of the merging documents in the current process, the SQL stored procedure can be updated to contain the new Amazon data and be integrated into the existing auto generated report. This decreases development time as well as maintains the schedules and user defined lists already established. Additional users can also be added to the report or removed from the reports as necessary. By adding the new data and calculations to the existing report, there is no need for the user to do any manual manipulation to create the reports and it also increases the ease of revisions to the data and/or report. Alternative 4 also allows for the developers to use the development tools that are already utilized by BUDK. This creates no additional development expenses and allows the development work to be done with tools that have a high familiarity factor. The additions to the existing report will enhance the positive user feedback because the reports will be familiar to the existing report users. The short development time also allows for quicker feedback by users and faster revisions when necessary. The users will benefit from having one report to review and utilize when making decisions.
 
+## Section 7
 
+**Implementing the alternative:**
 
+- **Explain your implementation strategy in detail.**
 
+- **Convey the decision to those affected and get their commitment to it.** 
 
+- **Describe the time, cost, and methods in detail.**
 
+**This step needs to be reviewed, verified and approved by your site supervisor.**
 
+### Implementation Strategy
 
+The following implementation strategy was devised for Alternative 4 and requires the use of Visual Studio (C# programming language), Microsoft SQL Server Management and Excel. Below you will find the detailed step-by-step strategy designed to utilize the development tools that are currently in use by BUDK as well as the incorporation of the new Amazon data into the existing report. This strategy maximizes the tools available, shortens development time and allows for me to learn a new programming language and development skills. 
 
+Step 1:  I will identify all primary and secondary stakeholders.
 
+Step 2:  I will begin interviewing the primary and secondary stakeholders to assess which auto generated report is being merged, where the Amazon Seller Central reports are located on the Amazon portal, the preferred interval of delivery, the current interval of delivery of the existing auto-report and the users of the report. I will also gather the following documents from stakeholders: copy of the downloaded Amazon reports generated from Amazon Seller Central, the BUDK auto-generated report used for merging with the Amazon report, and the final manually merged document. 
 
+Step 3:  I will create my defined list of recipients based on the stakeholder interviews and review this list with the IT Manager for approval.
 
+Step 4:  I will study the location (company drive) and the layout of the current auto generated report to better understand the current state of the report.
 
+Step 5:  I will begin creating a process to import the Amazon reports into the BUDK database (BUDK currently uses Microsoft SQL Server Management to manage their database information). This process will be based on how the data is populated by Amazon and the easiest way to get this information into the database (possible daily, weekly and semi-monthly task for a designated user). 
 
+  Step 5-A:  Create table to hold Transactional Data
+  
+  Step 5-B: Create table to hold Advertisement Spending Data 
+  
+Step 6:  This step will require me to use Visual Studio to create a process to import the Amazon reports into the BUDK database. This step will require the following sub steps:
 
+  Step 6-A:  Create base drop folder for files
+  
+  Step 6-B: Create archive folder within base folder for previously imported files
+  
+  Step 6-C:  Create method within Visual Studio to read files, import information into database 	table and move file to archive folder
+  
+  Step 6-D:  Set-up schedule for importation within VisualCron Automation Tool and Scheduler
+  
+Step 7:  Gather test files from Amazon to test importation code in Steps 6 & 7
 
+Step 8:  Validation - Test code and verify information is placed into the correct tables, the data imported is correct and amount of data is correct. 
 
+  Step 8-A:  Test files separately
+  
+  Step 8-B:  Test both files
+  
+  Step 8-C:  Review both tables within database and verify information is accurate
+  
+  Step 8-D:  Repeat until error free and 100% data validation
+  
+Step 9:  When 100% data validation and error free testing is attained complete the following sub tasks:
 
+  Step 9-A:  Clear both database tables
+  
+  Step 9-B:  Access the older files from the Amazon Seller Central portal and import those files into	the database using the code created
+  
+  Step 9-C:  Verify importation succeeded 
+  
+Step 10:  Locate the stored for the existing report and review stored procedure for understanding.
 
+Step 11: Begin to add additional columns to the existing stored procedure. This will require SQL coding within the Microsoft SQL Server Management environment. The final manually merged document should be used for data validation during this step. 
 
+Step 12: Once the stored procedure for the existing has been updated, validated and accurately adds the required information begin incorporating this new information into the existing methods in Visual Studio (uses C#). The following sub tasks will need to be completed:
 
+  Step 12-A:  Verify if a template is used, if so, update the template with the new columns	(	template should match the layout of the final merged document)
+  
+  Step 12-B:  Update the C# code in Visual Studio to set properties, fetch data SQL and add to the 	excel creation method for the newly created columns
+  
+  Step 12-C:  Create testing folders to hold the updated template and generated test report
+  
+  Step 12-D:  Verify the mapping is updated in Visual Studio to these new testing locations
+  
+Step 13:  Test and debug C# code in Visual Studio until error free.
 
+Step 14:  Verify layout and data match the final merged document, repeat until data and layout is 100% verified.
 
+Step 15:  Send to IT Manager for initial validation and adjustments, once approved proceed to Step 16.
+
+Step 16:  User validation – Send to users approved in Step 3
+
+  Step 16-A:  If users have changes, verify with IT Manager prior to revisions
+  
+  Step 16-B:  Revise and re-validate with users until 100% user acceptance
+  
+Step 17:  Additional steps:
+
+  Step 17-A: Add any new users identified in Step 3 to the auto generated user listing 
+  
+   Step 17-B:  Verify with IT Manager the need for a schedule change based on interviews conducted in Step 2
+   
+Step 18:  Get IT Manager’s approval to put updated report into production
+
+Step 19: Create a work-instructions for downloading and importing the Amazon Transactions report and the Amazon Ad Spending report. Provide these reports to IT Manager and designated users that will be responsible for this process.
+
+Step 20:  File the work-instructions within the IT documents folder and review the project with mentor for any final thoughts, questions, or concerns.
+
+- I ask for BUDK’s commitment to Alternative 4 and the strategy outlined above because it maximizes the use of tools already owned by BUDK and shortens the development time. This benefits BUDK because I am a new developer and creating a new report from scratch would significantly increase development time on the project. The inclusion of the Amazon data within the database will also benefit BUDK because the information will be available if needed for other reports. The update of the auto generated report will also allow users to focus on other tasks and take production time doing redundant tasks. One user will be the point of download for the Amazon reports located on the Amazon Seller Central portal and they will only spend less than 5 minutes downloading the saving those files to the base folder for importation. Once the user saves these files the schedule set-up in VisualCron will do the heavily lifting and begin the importation process created to add the data to the specified tables within BUDK’s database. This process not only speeds up the process but also ensures that users are utilizing only one set of accurate data. This also allows users to send one request to the IT department for any changes to the report, so there is only one central change request point for tracking purposes. 
+
+- The time for this project should take no more than 10-12 weeks to complete if no additions or changes are presented to the proposed implementation strategy. The cost for BUDK is zero since this will be done by me through an internship and I will be utilizing the development tools that BUDK already has in place. The only cost foreseen for this project will be the time taken from the stakeholders during the interview process which each interview should not take more than 20 minutes of each user’s time. 
+
+## Section 8
+
+**Evaluating the decision effectiveness:**
+
+**This section should appraise the result of the decision to see whether the problem has been resolved and/or the objective has been achieved.**
+
+**This step needs to be reviewed, verified and approved by your site supervisor.**
+
+- We will distribute emails to notify the users that the new report is in production
+
+- After 2 weeks, we will reach out to the users of the report to see if the users encountered or had any of the following issues:
+
+  - Any issues with the aggregation or calculation on the added data?
+  
+  - The layout?
+  
+  - The added columns? 
+  
+  - Missing information?
+  
+  - We will also ask the following regarding the usefulness of the report:
+  
+    - Did the updates resolve your issue of having to merge documents?
+    
+    - Did the new report save you time during your day? Week?
+    
+    - Do you need any more information added to the report?
+    
+    - Is the report overall more or less useful to you after the updates?
+    
+- We will relay to the users that the task will remain open for 4 weeks and if we do not hear of any revisions, we will close out the task. 
+These inquiries will allow BUDK to see if the report has eliminated redundancy in the work completed during the day by various users as well as allows for users to provide valuable feedback. The feedback from the employees will allow the IT Manager to know that the task has been successfully completed and no additional issues have arisen from the updates to the report. Since this is a report update and not a scratch report the feedback focuses on the creation of a more useful report for the users and the elimination of work redundancy. 
