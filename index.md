@@ -37,4 +37,6 @@ Host Organization Website:  [BUDK](https://www.budk.com)
 
 [Progress Reports](https://kj04511.github.io/ProgressReports.html)
 
+[Most Meaningful Objective Report](https://kj04511.github.io/MeaningfulObjectiveReport.html)
+
 
