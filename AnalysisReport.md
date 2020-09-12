@@ -318,3 +318,5 @@ Step 20:  File the work-instructions within the IT documents folder and review t
     
 - We will relay to the users that the task will remain open for 4 weeks and if we do not hear of any revisions, we will close out the task. 
 These inquiries will allow BUDK to see if the report has eliminated redundancy in the work completed during the day by various users as well as allows for users to provide valuable feedback. The feedback from the employees will allow the IT Manager to know that the task has been successfully completed and no additional issues have arisen from the updates to the report. Since this is a report update and not a scratch report the feedback focuses on the creation of a more useful report for the users and the elimination of work redundancy. 
+
+[Return to Homepage](https://kj04511.github.io/)
