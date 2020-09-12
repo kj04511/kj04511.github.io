@@ -18,8 +18,3 @@ I will be learning C# which is an Object-Oriented programming language. This wil
 **Experience an actual testing environment**
 
 The building of this report will require extensive testing of my SQL script as well as my C# coding. This testing will allow me to gain hands-on troubleshooting knowledge and create a mental repository of frequent programming bugs that will not only make me a better programmer but also a faster one. Justin states that the Visual Studio program is local to my workstation so I will have the ability of unlimited testing opportunities. Because of this, my programming and problem-solving skills will be greatly enhanced.
-
-[BUDK](https://budk.com)
-
-
-
