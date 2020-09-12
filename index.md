@@ -32,3 +32,5 @@ Host Organization Website:  [BUDK](https://www.budk.com)
 [Learning Objectives](https://kj04511.github.io/LearningObjectives.html)
 
 [Internship Based Analysis Report](https://kj04511.github.io/AnalysisReport.html)
+
+[Weekly Time Log Reports](https://kj04511.github.io/WeeklyTimeLog.html)
