@@ -142,7 +142,7 @@ Correctly calculated and aggregated data | 15%
 
 ### **Alternative 4**
 
-**Strenghths**
+**Strengths**
 
 1.	Short development time
 2.	Amazon Seller Central data integrated into BUDK database for future and additional reporting
