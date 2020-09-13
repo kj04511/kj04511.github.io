@@ -210,39 +210,39 @@ Step 4:  I will study the location (company drive) and the layout of the current
 
 Step 5:  I will begin creating a process to import the Amazon reports into the BUDK database (BUDK currently uses Microsoft SQL Server Management to manage their database information). This process will be based on how the data is populated by Amazon and the easiest way to get this information into the database (possible daily, weekly and semi-monthly task for a designated user). 
 
-  Step 5-A:  Create table to hold Transactional Data
+  - Step 5-A:  Create table to hold Transactional Data
   
-  Step 5-B: Create table to hold Advertisement Spending Data 
+  - Step 5-B: Create table to hold Advertisement Spending Data 
   
 Step 6:  This step will require me to use Visual Studio to create a process to import the Amazon reports into the BUDK database. This step will require the following sub steps:
 
-  Step 6-A:  Create base drop folder for files
+  - Step 6-A:  Create base drop folder for files
   
-  Step 6-B: Create archive folder within base folder for previously imported files
+  - Step 6-B: Create archive folder within base folder for previously imported files
   
-  Step 6-C:  Create method within Visual Studio to read files, import information into database 	table and move file to archive folder
+  - Step 6-C:  Create method within Visual Studio to read files, import information into database 	table and move file to archive folder
   
-  Step 6-D:  Set-up schedule for importation within VisualCron Automation Tool and Scheduler
+  - Step 6-D:  Set-up schedule for importation within VisualCron Automation Tool and Scheduler
   
 Step 7:  Gather test files from Amazon to test importation code in Steps 6 & 7
 
 Step 8:  Validation - Test code and verify information is placed into the correct tables, the data imported is correct and amount of data is correct. 
 
-  Step 8-A:  Test files separately
+  - Step 8-A:  Test files separately
   
-  Step 8-B:  Test both files
+  - Step 8-B:  Test both files
   
-  Step 8-C:  Review both tables within database and verify information is accurate
+  - Step 8-C:  Review both tables within database and verify information is accurate
   
-  Step 8-D:  Repeat until error free and 100% data validation
+  - Step 8-D:  Repeat until error free and 100% data validation
   
 Step 9:  When 100% data validation and error free testing is attained complete the following sub tasks:
 
-  Step 9-A:  Clear both database tables
+  - Step 9-A:  Clear both database tables
   
-  Step 9-B:  Access the older files from the Amazon Seller Central portal and import those files into	the database using the code created
+  - Step 9-B:  Access the older files from the Amazon Seller Central portal and import those files into	the database using the code created
   
-  Step 9-C:  Verify importation succeeded 
+  - Step 9-C:  Verify importation succeeded 
   
 Step 10:  Locate the stored for the existing report and review stored procedure for understanding.
 
@@ -250,13 +250,13 @@ Step 11: Begin to add additional columns to the existing stored procedure. This 
 
 Step 12: Once the stored procedure for the existing has been updated, validated and accurately adds the required information begin incorporating this new information into the existing methods in Visual Studio (uses C#). The following sub tasks will need to be completed:
 
-  Step 12-A:  Verify if a template is used, if so, update the template with the new columns	(	template should match the layout of the final merged document)
+  - Step 12-A:  Verify if a template is used, if so, update the template with the new columns	(	template should match the layout of the final merged document)
   
-  Step 12-B:  Update the C# code in Visual Studio to set properties, fetch data SQL and add to the 	excel creation method for the newly created columns
+  - Step 12-B:  Update the C# code in Visual Studio to set properties, fetch data SQL and add to the 	excel creation method for the newly created columns
   
-  Step 12-C:  Create testing folders to hold the updated template and generated test report
+  - Step 12-C:  Create testing folders to hold the updated template and generated test report
   
-  Step 12-D:  Verify the mapping is updated in Visual Studio to these new testing locations
+  - Step 12-D:  Verify the mapping is updated in Visual Studio to these new testing locations
   
 Step 13:  Test and debug C# code in Visual Studio until error free.
 
@@ -266,15 +266,15 @@ Step 15:  Send to IT Manager for initial validation and adjustments, once approv
 
 Step 16:  User validation – Send to users approved in Step 3
 
-  Step 16-A:  If users have changes, verify with IT Manager prior to revisions
+  - Step 16-A:  If users have changes, verify with IT Manager prior to revisions
   
-  Step 16-B:  Revise and re-validate with users until 100% user acceptance
+  - Step 16-B:  Revise and re-validate with users until 100% user acceptance
   
 Step 17:  Additional steps:
 
-  Step 17-A: Add any new users identified in Step 3 to the auto generated user listing 
+   - Step 17-A: Add any new users identified in Step 3 to the auto generated user listing 
   
-   Step 17-B:  Verify with IT Manager the need for a schedule change based on interviews conducted in Step 2
+   - Step 17-B:  Verify with IT Manager the need for a schedule change based on interviews conducted in Step 2
    
 Step 18:  Get IT Manager’s approval to put updated report into production
 
