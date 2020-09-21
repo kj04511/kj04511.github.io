@@ -4,7 +4,7 @@ This page contains links to my weekly project time logs.
 
 **Time Log Link** | **Date**
 ------------ | -----------
-Test | test
+[Weekly Time Log 1](https://kj04511.github.io/Time Log 1.docx) | 9/20/2020
 
 
 
