@@ -4,7 +4,7 @@ This pages contains the links to my Progress Reports.
 
 **Progress Reports Link** | **Date**
 --------------- | ---------------
-Test | test
+[Progress Report 1](https://kj04511.github.io/Progress Report 1.docx) | 10/4/2020
 
 
 
