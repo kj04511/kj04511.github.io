@@ -10,6 +10,7 @@ This page contains links to my weekly project time logs.
 [Weekly Time Log 4](https://kj04511.github.io/Time Log 4.docx) | 10/11/2020
 [Weekly Time Log 5](https://kj04511.github.io/Time Log 5.docx) | 10/18/2020
 [Weekly Time Log 6](https://kj04511.github.io/Time Log 6.docx) | 10/25/2020
+[Weekly Time Log 7](https://kj04511.github.io/Time Log 7.docx) | 11/01/2020
 
 
 
