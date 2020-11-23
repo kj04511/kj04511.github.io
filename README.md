@@ -1,5 +1,10 @@
 ## BUDK Worldwide Internship - Readme
 
+BUDK Worldwide is an online ecommerce company that specializes in knives and weaponery. During my internship I will be working in their IT department working on tasks that focus on data analysis and report creation that makes the data more useful. The company is moving away from catalog sales and more towards online sales which has brought the need for more data transparency to make informed advertising, merchandising and marketing decisions. I will be tasked with creating reports that drive this initiative within the organization. 
+
+
+## Tasks during internship
+
 - During my internship I will be working with Microsoft SQL Server Management and Visual Studio to create programmatically generated Excel documents that will be used by the Ecommerce department, Merchandising department, Marketing department and upper management to regulate inventory, determine item profitability, easily adjust pricing and review an item’s sale trend on third party websites such as Amazon, eBay and Wish. Throughout the internship I have been tasked with creating an Amazon Pricing Report, eBay Pricing Report, and Wish Pricing Report for this purpose.
 
 - I have also been tasked with expanding the existing Website Merchandising Report to account for the multiple company websites. This report will be used to track items displayed on the website using the top down breadcrumb structure of the website. The report will flow with the website such that you will be able to drill down into the Excel document in the same manner as the current website and achieve the same items that are displayed on the website. I am tasked with taking the current report code and creating one report for each website. This report will be used when maintaining the website and tracking inventory and category information (i.e. an item can be in multiple categories on the website). 
