@@ -1,38 +1,12 @@
-## Welcome to GitHub Pages
+## BUDK Worldwide Internship - Readme
 
-You can use the [editor on GitHub](https://github.com/kj04511/kj04511.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- During my internship I will be working with Microsoft SQL Server Management and Visual Studio to create programmatically generated Excel documents that will be used by the Ecommerce department, Merchandising department, Marketing department and upper management to regulate inventory, determine item profitability, easily adjust pricing and review an item’s sale trend on third party websites such as Amazon, eBay and Wish. Throughout the internship I have been tasked with creating an Amazon Pricing Report, eBay Pricing Report, and Wish Pricing Report for this purpose.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- I have also been tasked with expanding the existing Website Merchandising Report to account for the multiple company websites. This report will be used to track items displayed on the website using the top down breadcrumb structure of the website. The report will flow with the website such that you will be able to drill down into the Excel document in the same manner as the current website and achieve the same items that are displayed on the website. I am tasked with taking the current report code and creating one report for each website. This report will be used when maintaining the website and tracking inventory and category information (i.e. an item can be in multiple categories on the website). 
+ 
+- The final major report that I have been tasked with is the Warehouse Production Analysis Report. This report will be used to determine the efficiency of the warehouse regarding daily ready to process orders and daily shipments levels. The goal is to take a snapshot of the real-time data and translate that into how much shipment carryover from day to day is being accrued by the warehouse. This report will be used by the CEO to determine if the warehouse is performing as desired daily. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How these reports work
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kj04511/kj04511.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-[Test Link](https://www.budk.com)
+These reports are autogenerate reports that do not require any manual creations tasks. Each Excel is setup in VisualCron which is a Windows task scheduler that is located on the server. The reports are placed on a time trigger that allows them to be ran once or multiple times throughout the day. Each report also has a subscriber list which are individuals that want to receive the report. This information is maintained within the database and is easily updatable within the company’s internal intranet system. 
