@@ -14,7 +14,8 @@
 
 - **Update PO Report** - Updated the template with new widths, changed document headers and made adjustments to the width and height of the comments notes within the document. 
 
-- **Consolidate eBay, Wish, & Amazon Pricing Reports email output** - Updated WISH, Amazon and eBay code to send only one email with a link to all 3 reports. The subject line named Third Party Pricing Report. 
+- **Consolidate eBay, Wish, & Amazon Pricing Reports email output** - Updated WISH, Amazon and eBay code to send only one email with a link to all 3 reports. The subject line named Third Party Pricing Report.
+![Third Party Email Output](https://kj04511.github.io/ThirdPartyEmail.PNG)
 
 - **Website Merchandising Report** - Updated the stored procedure to generate based on SiteID to create a new Excel document for each SiteID.
 ![Website Merchandising Report](https://kj04511.github.io/Wmrfile.PNG)
