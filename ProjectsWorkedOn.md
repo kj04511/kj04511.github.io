@@ -23,10 +23,11 @@
 - **Various adhoc reports and requests** - Created adhoc reports and requests that were sent via email. Received various requests to correct errors in existing reports, new adhoc reports based on sales data, offers and other criteria, etc. 
 
 
+
 ## Demo Videos
 
-	**Demo** | **Link**
------------- | -----------
+**Demo** | **YouTube Link**
+---------| ----------
 Demo 1 | [Demo 1](https://youtu.be/vkZwNkt_YrY)
 Demo 2 | [Demo 2](https://youtu.be/ktkN80Kiyzk)
 Demo 3 | [Demo 3](https://youtu.be/0ACkEWr-zhk)
