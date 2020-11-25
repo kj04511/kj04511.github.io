@@ -25,6 +25,12 @@
 
 ## Demo Videos
 
+	**Demo** | **Link**
+------------ | -----------
+Demo 1 | [Demo 1](https://youtu.be/vkZwNkt_YrY)
+Demo 2 | [Demo 2](https://youtu.be/ktkN80Kiyzk)
+Demo 3 | [Demo 3](https://youtu.be/0ACkEWr-zhk)
+
 
 
 [Return to Homepage](https://kj04511.github.io/)
